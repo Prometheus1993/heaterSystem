@@ -1,9 +1,16 @@
-﻿namespace HeaterSystem;
-
-class Program
+﻿namespace HeaterSystem
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            // Using object initializer to set properties
+            Thermostat thermostat = new Thermostat(new TemperatureSensor(), new HeatingElement())
+            {
+                Setpoint = 20.0,
+                Offset = 0.5
+            };
+            thermostat.Work();
+        }
     }
 }
