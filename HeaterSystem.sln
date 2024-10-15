@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterSystem", "HeaterSystem\HeaterSystem.csproj", "{44263385-2181-4C44-846C-7CE13709B577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterSystem.UnitTests", "HeaterSystem.UnitTests\HeaterSystem.UnitTests.csproj", "{AE8E0A9F-C317-46F5-9B46-C6D0D70E14CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{44263385-2181-4C44-846C-7CE13709B577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44263385-2181-4C44-846C-7CE13709B577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44263385-2181-4C44-846C-7CE13709B577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8E0A9F-C317-46F5-9B46-C6D0D70E14CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8E0A9F-C317-46F5-9B46-C6D0D70E14CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8E0A9F-C317-46F5-9B46-C6D0D70E14CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8E0A9F-C317-46F5-9B46-C6D0D70E14CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
